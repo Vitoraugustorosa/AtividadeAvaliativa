@@ -1,28 +1,27 @@
 package senai.endereco.com;
 
-public class Endereco extends Cidade{ // ATIVIDADE 
+public class Endereco {
+	public String cidade;
+	public String estado;
+	public String pais;
+	public String getPais() {
+		return pais;
+	}
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
+	public String getCidade() {
+		return cidade;
+	}
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
 	
-	private String nomeDoBairro;
-	public String getNomeDoBairro() {
-		return nomeDoBairro;
-	}
-	public void setNomeDoBairro(String nomeDoBairro) {
-		this.nomeDoBairro = nomeDoBairro;
-	}
-	public String getNomeDarua() {
-		return nomeDarua;
-	}
-	public void setNomeDarua(String nomeDarua) {
-		this.nomeDarua = nomeDarua;
-	}
-	public int getNumeroDaRua() {
-		return numeroDaRua;
-	}
-	public void setNumeroDaRua(int numeroDaRua) {
-		this.numeroDaRua = numeroDaRua;
-	}
-	private String nomeDarua;
-	private int numeroDaRua;
 	
-
 }

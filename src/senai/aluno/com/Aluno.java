@@ -1,8 +1,11 @@
 package senai.aluno.com;
 
-public class Aluno {
+import senai.curso.com.Curso;
+import senai.endereco.com.Endereco;
+
+public class Aluno extends Endereco {
 	private String nomeAluno;
-	private String idadeAluno;
+	private int idadeAluno;
 	private String curso;
 	public String getNomeAluno() {
 		return nomeAluno;
@@ -10,18 +13,19 @@ public class Aluno {
 	public void setNomeAluno(String nomeAluno) {
 		this.nomeAluno = nomeAluno;
 	}
-	public String getIdadeAluno() {
+	public int getIdadeAluno() {
 		return idadeAluno;
 	}
-	public void setIdadeAluno(String idadeAluno) {
-		this.idadeAluno = idadeAluno;
+	public void setIdadeAluno(int i) {
+		this.idadeAluno = i;
 	}
 	public String getCurso() {
 		return curso;
 	}
-	public void setCurso(String curso) {
+	public void setCurso(Curso curso2) {
 		this.curso = curso;
 	}
 	
 	
 }
+

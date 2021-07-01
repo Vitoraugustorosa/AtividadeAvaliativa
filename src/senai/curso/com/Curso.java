@@ -2,7 +2,7 @@ package senai.curso.com;
 
 public class Curso {
 	
-	private String nomeDoCurso;
+	public String nomeDoCurso;
 
 	public String getNomeDoCurso() {
 		return nomeDoCurso;
